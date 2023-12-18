@@ -1,0 +1,48 @@
+.section-main {
+  padding: 160px 0 100px;
+}
+
+.main-content {
+  &__title {
+    margin: 0 0 40px;
+    font-family: $font-family-unique;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #b154f0;
+  }
+
+  &__subtitle {
+    margin: 0 0 40px;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  &__btn {
+    display: inline-block;
+    padding: 12px 25px;
+
+    span {
+      transition: $transition-base;
+    }
+
+    &:hover {
+      span {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  &__image {
+    position: absolute;
+    top: -50px;
+    right: -350px;
+    z-index: -1;
+
+    img {
+      width: 80%;
+    }
+  }
+}

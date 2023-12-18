@@ -1,29 +1,28 @@
-// main colors
-$main-first-color: #7a0000;
-$main-second-color: #007d00;
-$main-third-color: #000082;
-
-// colors
-$title-color: #111;
-$text-color: #333;
-$input-placeholder-color: #aaa;
-
 // fonts
-$font-family-base: 'Verdana', sans-serif;
+$font-family-base: 'Exo', sans-serif;
 $font-family-custom: 'Arial', sans-serif;
-$font-family-unique: 'Times New Roman', serif;
-
-// font-weight
-$font-weight-medium: 500;
-$font-weight-sbold: 600;
+$font-family-unique: 'Metal Mania', sans-serif;
 
 // font-size
 $font-size-default: 16px;
 $line-height-base: 1.25;
 
+// font-weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-sbold: 600;
+$font-weight-bold: 700;
+
 // behavior
 $transition-base: all .3s ease 0s;
 
-//Bootstrap var
-$enable-shadows: true;
-$body-color: $text-color;
+// main colors
+$main-first-color: #B154F0;
+$main-second-color: #007d00;
+$main-third-color: #000082;
+
+// colors
+$title-color: #000;
+$text-color: #111;
+$input-placeholder-color: #aaa;

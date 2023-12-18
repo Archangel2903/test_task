@@ -5,113 +5,283 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, shrink-to-fit=no">
     <title>Главная</title>
-<link rel="shortcut icon" href="favicon.ico"><link href="style.a882df85ea17b401f7d7.min.css" rel="stylesheet"></head>
+<link rel="shortcut icon" href="favicon.ico"><link href="style.3176d6873675bd4c5805.min.css" rel="stylesheet"></head>
 <body>
 <!-- BODY -->
 <div class="main-wrapper">
     <!-- HEADER -->
     <header class="header">
-        <div class="container bg-light">
-            <h1>Header Title</h1>
+        <div class="wrapper">
+            <nav class="header-nav">
+                <a href="/" class="header-nav__logo">
+                    <picture>
+                        <img src="img/default.svg" data-src="img/logo.webp" alt="" title="">
+                    </picture>
+                </a>
+
+                <a href="/" class="header-nav__login btn-style">Sign Up <span class="header-nav__login-arrow">➤</span></a>
+
+                <div class="header-nav__menu">
+                    <input type="checkbox" id="burger_check">
+                    <label for="burger_check" class="header-nav__menu-btn btn-style">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+
+                    <ul class="header-nav__menu-list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Match</a></li>
+                        <li><a href="/">Pages</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <!-- HEADER END -->
 
     <!-- CONTENT -->
     <main class="content">
-        <div class="section">
-            <div class="container">
-                <h2>Section Slider</h2>
+        <section class="section section-main">
+            <div class="section-bg">
+                <picture>
+                    <img src="img/section-main-bg.webp" class="section-bg__img" alt="" title="">
+                </picture>
+            </div>
+            <div class="wrapper">
+                <div class="main-content">
+                    <h1 class="main-content__title">Best game playing today.</h1>
+                    <p class="main-content__subtitle">Simply text of the printing and typesetting industry.</p>
 
-                <div class="main-slider swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <picture>
-                                <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="example" title="example">
-                            </picture>
-                        </div>
+                    <a href="#" class="main-content__btn btn-style">Play Now <span class="main-content__btn-arrow">➤</span></a>
 
-                        <div class="swiper-slide">
-                            <picture>
-                                <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="example" title="example">
-                            </picture>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="example" title="example">
-                            </picture>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="example" title="example">
-                            </picture>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="example" title="example">
-                            </picture>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!--<div class="swiper-scrollbar"></div>-->
+                    <picture class="main-content__image">
+                        <img src="img/default.svg" data-src="img/hero-position-img.webp" alt="" title="">
+                    </picture>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <div class="container">
-                <h2>Section Pictures</h2>
-                <picture>
-                    <img src="img/default.svg" data-src="img/placeholder-img.jpg" alt="loader" title="loader">
-                </picture>
+        <section class="section section-showcase">
+            <div class="wrapper">
+                <div class="showcase-content">
+                    <p class="showcase-content__title">Upcoming match</p>
 
-                <svg>
-                    <use xlink:href="img/spritemap.svg#sprite-ok"></use>
-                </svg>
+                    <div class="showcase-content__items">
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb1.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">03 January, 2021, 05:01:00 AM</p>
+                            <p class="showcase-content__block-title"><a href="#">SKRIT TOURNAMENT 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">06 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb3.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">02 January, 2021, 01:01:00 PM</p>
+                            <p class="showcase-content__block-title"><a href="#">NINJA 360 GAME 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">08 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb3.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb1.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">01 January, 2021, 06:01:00 AM</p>
+                            <p class="showcase-content__block-title"><a href="#">ROAR SPRING GAME 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">04 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb1.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">03 January, 2021, 05:01:00 AM</p>
+                            <p class="showcase-content__block-title"><a href="#">SKRIT TOURNAMENT 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">06 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb3.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">02 January, 2021, 01:01:00 PM</p>
+                            <p class="showcase-content__block-title"><a href="#">NINJA 360 GAME 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">08 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb3.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb1.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">01 January, 2021, 06:01:00 AM</p>
+                            <p class="showcase-content__block-title"><a href="#">ROAR SPRING GAME 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">04 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb1.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">03 January, 2021, 05:01:00 AM</p>
+                            <p class="showcase-content__block-title"><a href="#">SKRIT TOURNAMENT 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">06 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+
+                        <div class="showcase-content__block card-style">
+                            <div class="showcase-content__block-imgs">
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb3.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-vs1.webp" alt="" title="">
+                                </picture>
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/game-thumb2.webp" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="showcase-content__block-date">02 January, 2021, 01:01:00 PM</p>
+                            <p class="showcase-content__block-title"><a href="#">NINJA 360 GAME 2021</a></p>
+                            <p class="showcase-content__block-text showcase-content__block-text_info">08 Teams Registered</p>
+                            <a href="#" class="showcase-content__block-btn btn-style">Youtube Stream
+                                <picture>
+                                    <img src="img/default.svg" data-src="img/play-btn2.webp" alt="" title="">
+                            </picture></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <div class="container">
-                <h2>Section Range slider</h2>
+        <section class="section section-info">
+            <div class="wrapper">
+                <div class="info-content">
+                    <p class="info-content__title">Lorem ipsum dolor sit amet. Quasi!</p>
 
-                <div class="slider-range"><input type="range" value="75" min="1" max="100"></div>
-                <div class="slider-range"><input type="range" value="275" max="1000"></div>
-                <div class="slider-range"><input type="range"></div>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
 
-                <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet blanditiis culpa deserunt ea eaque error esse est eum expedita hic impedit inventore iste laboriosam laborum magni maiores nam non nulla numquam odio officia pariatur quia quisquam quo ratione recusandae sed sint, suscipit tempora tenetur veritatis vero vitae voluptas voluptate!</p>
 
-                <div class="slider-handles"><input type="range" min="2000" max="10000"></div>
-                <div class="slider-handles"><input type="range" max="1000"></div>
-                <div class="slider-handles"><input type="range"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Minima, rem!</span></p>
+
+                    <ul>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi autem consequuntur cum debitis deleniti earum facere incidunt, labore magni natus obcaecati odit pariatur rerum similique sunt tenetur vitae voluptas voluptates, voluptatibus! Ab blanditiis consequatur dolorem est iusto magni, natus omnis tenetur! Ab atque aut consequuntur cupiditate debitis doloribus eaque error reprehenderit tempora temporibus. Animi consequuntur dolore doloribus enim incidunt itaque minima neque numquam quisquam saepe? Ad amet animi atque, aut dignissimos laudantium non nulla, quae quaerat quos sequi sunt. A ad amet assumenda aut consectetur enim, eos est ex expedita fuga laborum minima minus mollitia nisi officiis quaerat quam quas quis repellat repudiandae! A commodi delectus deserunt ipsam, laudantium libero modi nihil nulla quaerat rem repellendus, sed, voluptates! Delectus est excepturi necessitatibus recusandae temporibus.</p>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
     <!-- CONTENT END -->
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="container bg-info">
-            <h3 class="m-0">Footer Title</h3>
+        <div class="wrapper">
+            <p class="copyright">2023 BONX</p>
         </div>
     </footer>
     <!-- FOOTER END -->
-</div>
 
-<div class="preload-wrapper">
-    <div class="icon-load">
-        <picture><img src="img/loader.svg" alt="pre-loader"></picture>
-    </div>
+    <!--<svg>
+        <use xlink:href="img/spritemap.svg#sprite-ok"></use>
+    </svg>-->
 </div>
-<!-- BODY END   -->
-<script type="text/javascript" src="bundle.a882df85ea17b401f7d7.min.js"></script></body>
+<!-- BODY END -->
+<script type="text/javascript" src="bundle.3176d6873675bd4c5805.min.js"></script></body>
 </html>

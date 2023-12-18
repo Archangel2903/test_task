@@ -4,8 +4,121 @@
 header.header {
   order: 1;
   -webkit-order: 1;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   min-width: 320px;
   width: 100%;
   z-index: 100;
+}
+
+.header-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 6px 0;
+
+  &__logo {
+    display: block;
+
+    img {
+
+    }
+  }
+
+  &__login {
+    display: none;
+
+    &:hover {
+      background: #c17bf1;
+    }
+  }
+
+  &__menu {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    #burger_check {
+      display: none;
+
+      &:checked {
+        &+ .header-nav {
+          &__menu {
+            &-btn {
+              background: #ffffff;
+              z-index: 1;
+
+              & .bar {
+                background: #000000;
+
+                &:nth-child(1) {
+                  transform: translateY(6px) rotate(45deg);
+                }
+                &:nth-child(2) {
+                  opacity: 0;
+                  visibility: hidden;
+                }
+                &:nth-child(3) {
+                  transform: translateY(-6px) rotate(-45deg);
+                }
+              }
+            }
+          }
+        }
+        &~ .header-nav {
+          &__menu {
+            &-list {
+              top: 0;
+            }
+          }
+        }
+      }
+    }
+
+    &-btn {
+      position: relative;
+      padding: 18px;
+
+      & .bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background: #fff;
+        transition: $transition-base;
+
+        &:not(:last-child) {
+          margin: 0 0 4px;
+        }
+      }
+    }
+
+    &-list {
+      position: absolute;
+      top: -999%;
+      right: 0;
+      display: inline-flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      width: 100%;
+      padding: 20px 40px;
+      margin: 0;
+      background: #ffffff;
+      transition: $transition-base;
+
+      li {
+        padding: 16px 0;
+        a {
+          color: $text-color;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
 }

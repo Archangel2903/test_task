@@ -1,0 +1,25 @@
+.section-info {
+  padding: 80px 0;
+  background: #281E4D;
+}
+
+.info-content {
+  padding: 20px 10px;
+  background: #09002A;
+  border-radius: 34px;
+
+  &__title {
+    margin: 0 0 35px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  ol, ul {
+    list-style: disc;
+
+    li {}
+  }
+}

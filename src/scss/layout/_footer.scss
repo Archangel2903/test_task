@@ -5,6 +5,14 @@ footer.footer {
   order: 3;
   -webkit-order: 3;
   position: relative;
+  background: #09002a;
 }
 
-.copyright {}
+.copyright {
+  padding: 12px 0;
+  margin: 0;
+
+  &:before {
+    content: '\00A9' + ' ';
+  }
+}

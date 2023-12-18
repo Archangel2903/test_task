@@ -2,15 +2,213 @@
 ****************** MEDIA STYLES ******************
 *************************************************/
 // min-width
-@media screen and (min-width: 320px) {}
+/*@media screen and (min-width: 320px) {}
 @include media-breakpoint-up(sm) {}
 @include media-breakpoint-up(md) {}
 @include media-breakpoint-up(lg) {}
-@include media-breakpoint-up(xl) {}
+@include media-breakpoint-up(xl) {}*/
 
 // max-width
-@include media-breakpoint-down(lg) {}
+/*@include media-breakpoint-down(lg) {}
 @include media-breakpoint-down(md) {}
 @include media-breakpoint-down(sm) {}
 @include media-breakpoint-down(xs) {}
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {}*/
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 414px) {
+  .section-main {
+    padding: 160px 0 230px;
+  }
+
+  .main-content {
+    &__title {
+      font-size: 60px;
+    }
+
+    &__image {
+      top: -120px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .wrapper {
+    max-width: 576px;
+  }
+
+  .header-nav {
+    &__login {
+      display: block;
+      padding: 12px;
+      margin: 0 25px 0 auto;
+    }
+  }
+
+  .main-content {
+    &__title {
+      font-size: 86px;
+    }
+  }
+
+  .showcase-content {
+    &__block {
+      width: 48%;
+    }
+  }
+
+  .info-content {
+    padding: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .btn-style {
+    padding: 12px 6px;
+    border: 5px solid #fcbb6f;
+    border-radius: 16px;
+  }
+
+  .card-style {
+    border-radius: 34px;
+  }
+
+  .header-nav {
+    &__menu-btn {
+      padding: 12px;
+    }
+  }
+
+  .section-main {
+    padding: 200px 0 230px;
+  }
+
+  .main-content {
+    &__title {
+      font-size: 100px;
+    }
+
+    &__btn {
+      padding: 22px 65px;
+    }
+  }
+
+  .showcase-content {
+    &__title {
+      font-size: 55px;
+    }
+
+    &__block {
+      &-btn {
+        padding: 6px 0 0;
+      }
+    }
+  }
+
+  .info-content {
+    padding: 50px;
+
+    &__title {
+      font-size: 55px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    max-width: 991px;
+  }
+
+  .header-nav {
+    padding: 12px 0;
+
+    &__logo {
+      order: 0;
+    }
+
+    &__login {
+      order: 3;
+      padding: 16px 35px;
+      margin: 0;
+    }
+
+    &__menu {
+      order: 2;
+
+      &-btn {
+        display: none;
+      }
+
+      &-list {
+        position: static;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        width: auto;
+        padding: 0;
+        background: none;
+
+        li {
+          &:not(:first-child) {
+            margin-left: 48px;
+          }
+
+          a {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .main-content {
+    &__title {
+      max-width: 65%;
+      font-size: 120px;
+    }
+
+    &__image {
+      img {
+        width: auto;
+      }
+    }
+  }
+
+  .showcase-content {
+    &__items {
+
+    }
+
+    &__block {
+      width: 23%;
+    }
+  }
+
+  .copyright {
+    padding: 24px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+
+  .section-main {
+    padding: 287px 0 303px;
+  }
+
+
+}

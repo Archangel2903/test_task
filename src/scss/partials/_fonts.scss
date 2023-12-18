@@ -1,2 +1,61 @@
 $fonts-path: '../fonts/';
 
+@font-face {
+  font-family:'Metal Mania';
+  src: url('#{$fonts-path}Metal Mania.eot');
+  src: url('#{$fonts-path}Metal Mania.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Metal Mania.woff2') format('woff2'),
+  url('#{$fonts-path}Metal Mania.woff') format('woff'),
+  url('#{$fonts-path}Metal Mania.ttf') format('truetype'),
+  url('#{$fonts-path}Metal Mania.svg#Metal Mania') format('svg');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-02DC;
+}
+
+@font-face {
+  font-family:'Exo';
+  src: url('#{$fonts-path}Exo Bold.eot');
+  src: url('#{$fonts-path}Exo Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Exo Bold.woff2') format('woff2'),
+  url('#{$fonts-path}Exo Bold.woff') format('woff'),
+  url('#{$fonts-path}Exo Bold.ttf') format('truetype'),
+  url('#{$fonts-path}Exo Bold.svg#Exo Bold') format('svg');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+
+@font-face {
+  font-family:'Exo';
+  src: url('#{$fonts-path}Exo SemiBold.eot');
+  src: url('#{$fonts-path}Exo SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Exo SemiBold.woff2') format('woff2'),
+  url('#{$fonts-path}Exo SemiBold.woff') format('woff'),
+  url('#{$fonts-path}Exo SemiBold.ttf') format('truetype'),
+  url('#{$fonts-path}Exo SemiBold.svg#Exo SemiBold') format('svg');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+
+@font-face {
+  font-family:'Exo';
+  src: url('#{$fonts-path}Exo Regular.eot');
+  src: url('#{$fonts-path}Exo Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Exo Regular.woff2') format('woff2'),
+  url('#{$fonts-path}Exo Regular.woff') format('woff'),
+  url('#{$fonts-path}Exo Regular.ttf') format('truetype'),
+  url('#{$fonts-path}Exo Regular.svg#Exo Regular') format('svg');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}

@@ -10,6 +10,14 @@
   min-width: 320px;
 }
 
-.main-slider {
-
+.wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 $font-size-default;
+  margin: 0 auto;
+  z-index: 1;
 }
+
+@import './section-main';
+@import './section-showcase';
+@import './section-text-info';
